@@ -1,0 +1,12 @@
+while (guess !== favNumber) {
+    
+    let guess = prompt("Enter your favorite number");
+    if (guess > favNumber) {
+        console.log("too high");
+    } else if (guess < favNumber) {
+        console.log("too low");
+    } else {
+        console.log("Correct:" + 14);
+        break;
+    }
+}
